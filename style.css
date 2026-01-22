@@ -8,6 +8,13 @@
   --accent2: #b4befe;
 }
 
+@font-face{
+font-family: 'Dela Gothic One';
+src: url('/fonts/DelaGothicOne-Regular.ttf') format('truetype'),
+font-weight: normal;
+font-style: normal;
+}
+
 body {
   margin: 0;
   font-family: Dela Gothic One, sans-serif;
@@ -82,3 +89,4 @@ body {
 .section {
   margin: 15px 0;
 }
+
