@@ -1,0 +1,84 @@
+:root {
+  --base: #1e1e2e;
+  --surface0: #313244;
+  --surface1: #45475a;
+  --text: #cdd6f4;
+  --subtext0: #a6adc8;
+  --accent: #89b4fa;
+  --accent2: #b4befe;
+}
+
+body {
+  margin: 0;
+  font-family: Dela Gothic One, sans-serif;
+  background: var(--base);
+  color: var(--text);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.profile {
+  vertical-align: middle;
+  width: 150px;
+  height: 150px;
+  border-radius: 10%;
+}
+
+.profile img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 20px rgba(137, 180, 250, 0.4);
+}
+
+.text {
+  width: 100%;
+}
+
+.text h1 {
+  margin: 25px 0;
+  font-size: 2rem;
+  color: var(--accent);
+}
+
+.text h2 {
+  margin: 10px 0;
+  font-size: 2rem;
+  color: var(--accent);
+}
+
+.text h3 {
+  color: var(--accent2);
+  margin: 5px 0 15px;
+}
+
+.text p {
+  color: var(--subtext0);
+  line-height: 1.4;
+}
+
+.text section {
+  margin-bottom: 25px;
+  text-align: left;
+}
+
+.text ul {
+  list-style: none;
+  padding: 0;
+}
+
+.text ul li {
+  background: var(--surface1);
+  padding: 6px 10px;
+  border-radius: 6px;
+  margin-bottom: 6px;
+  color: var(--text);
+}
+
+.section {
+  margin: 15px 0;
+}
